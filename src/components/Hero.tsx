@@ -47,8 +47,7 @@ const Hero = () => {
             </Button>
             <a href="#insiders-guide" id="insider-guide-link">
               <Button 
-                variant="outline"
-                className="border-white text-white hover:bg-white/10"
+                className="bg-netcore-orange text-white border-white hover:bg-netcore-orange/90"
               >
                 Insider's Guide
               </Button>

@@ -12,7 +12,7 @@ const InsidersGuide = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-netcore-dark mb-3">Insider's Guide to Goa</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Recommendations from our resident Goa expert, Anand, who is embarking on his 8th trip to this paradise!
+            Explore the best of Goa with local recommendations for your extended stay!
           </p>
         </div>
 
@@ -127,7 +127,7 @@ const InsidersGuide = () => {
             these spots will keep you fed, entertained, and happy." - Anand
           </p>
           <Link to="/insider-guide" id="insider-guide-link">
-            <Button className="bg-netcore-orange hover:bg-netcore-orange/90">
+            <Button className="bg-netcore-orange hover:bg-netcore-orange/90 text-white">
               View Full Guide
             </Button>
           </Link>
