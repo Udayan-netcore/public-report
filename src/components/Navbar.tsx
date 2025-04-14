@@ -14,22 +14,27 @@ const Navbar = () => {
     <nav className="bg-white/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <span className="text-goa-sea font-bold text-xl">Goa Offsite Hub</span>
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/8b8ec370-dfba-4a99-8606-314ae1ba724f.png" 
+              alt="Netcore Logo" 
+              className="h-8 w-auto"
+            />
+            <span className="text-[#F97316] font-bold text-xl">Goa Offsite Hub</span>
           </div>
           
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#schedule" className="text-gray-700 hover:text-goa-sea hover:underline underline-offset-4 font-medium transition-colors">
+            <a href="#schedule" className="text-gray-700 hover:text-[#F97316] hover:underline underline-offset-4 font-medium transition-colors">
               Schedule
             </a>
-            <a href="#accommodation" className="text-gray-700 hover:text-goa-sea hover:underline underline-offset-4 font-medium transition-colors">
+            <a href="#accommodation" className="text-gray-700 hover:text-[#F97316] hover:underline underline-offset-4 font-medium transition-colors">
               Accommodation
             </a>
-            <a href="#transport" className="text-gray-700 hover:text-goa-sea hover:underline underline-offset-4 font-medium transition-colors">
+            <a href="#transport" className="text-gray-700 hover:text-[#F97316] hover:underline underline-offset-4 font-medium transition-colors">
               Transport
             </a>
-            <a href="#conduct" className="text-gray-700 hover:text-goa-sea hover:underline underline-offset-4 font-medium transition-colors">
+            <a href="#conduct" className="text-gray-700 hover:text-[#F97316] hover:underline underline-offset-4 font-medium transition-colors">
               Code of Conduct
             </a>
           </div>
@@ -38,7 +43,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button 
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-goa-sea"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#F97316]"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -54,28 +59,28 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
           <a 
             href="#schedule" 
-            className="block py-2 px-4 text-gray-700 hover:bg-goa-sand hover:text-goa-sea rounded-md"
+            className="block py-2 px-4 text-gray-700 hover:bg-[#F97316]/10 hover:text-[#F97316] rounded-md"
             onClick={toggleMenu}
           >
             Schedule
           </a>
           <a 
             href="#accommodation" 
-            className="block py-2 px-4 text-gray-700 hover:bg-goa-sand hover:text-goa-sea rounded-md"
+            className="block py-2 px-4 text-gray-700 hover:bg-[#F97316]/10 hover:text-[#F97316] rounded-md"
             onClick={toggleMenu}
           >
             Accommodation
           </a>
           <a 
             href="#transport" 
-            className="block py-2 px-4 text-gray-700 hover:bg-goa-sand hover:text-goa-sea rounded-md"
+            className="block py-2 px-4 text-gray-700 hover:bg-[#F97316]/10 hover:text-[#F97316] rounded-md"
             onClick={toggleMenu}
           >
             Transport
           </a>
           <a 
             href="#conduct" 
-            className="block py-2 px-4 text-gray-700 hover:bg-goa-sand hover:text-goa-sea rounded-md"
+            className="block py-2 px-4 text-gray-700 hover:bg-[#F97316]/10 hover:text-[#F97316] rounded-md"
             onClick={toggleMenu}
           >
             Code of Conduct

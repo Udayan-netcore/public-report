@@ -70,6 +70,14 @@ export default {
 					'sunset': '#F97316',
 					'palm': '#65A30D',
 					'night': '#1A1F2C'
+				},
+				// Netcore brand colors
+				netcore: {
+					'orange': '#F97316',
+					'dark': '#1A1F2C',
+					'purple': '#9b87f5',
+					'light-purple': '#D6BCFA',
+					'secondary-purple': '#7E69AB'
 				}
 			},
 			borderRadius: {

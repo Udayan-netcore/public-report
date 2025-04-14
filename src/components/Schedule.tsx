@@ -10,7 +10,7 @@ interface EventProps {
 
 const Event = ({ time, title, description }: EventProps) => (
   <div className="flex py-4 gap-4 animate-fade-in border-b border-gray-100 last:border-b-0">
-    <div className="w-24 flex-shrink-0 text-goa-sea font-medium">{time}</div>
+    <div className="w-24 flex-shrink-0 text-[#F97316] font-medium">{time}</div>
     <div>
       <h3 className="text-lg font-medium">{title}</h3>
       {description && <p className="text-gray-600 mt-1">{description}</p>}

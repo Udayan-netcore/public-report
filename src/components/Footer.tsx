@@ -5,11 +5,18 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-goa-night text-white py-12">
+    <footer className="bg-[#1A1F2C] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Goa Offsite Hub</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/lovable-uploads/8b8ec370-dfba-4a99-8606-314ae1ba724f.png" 
+                alt="Netcore Logo" 
+                className="h-8 w-auto"
+              />
+              <h3 className="text-xl font-semibold">Goa Offsite Hub</h3>
+            </div>
             <p className="text-gray-300">
               Your central resource for all information related to our tech team's 2025 offsite event in Goa.
             </p>
@@ -54,7 +61,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} Company Tech Team. All rights reserved.
+            &copy; {currentYear} Netcore Tech Team. All rights reserved.
           </p>
         </div>
       </div>
