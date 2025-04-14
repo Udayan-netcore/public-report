@@ -1,9 +1,8 @@
-
-import React from 'react';
-import { Separator } from '@/components/ui/separator';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle, XCircle, Phone, AlertCircle } from 'lucide-react';
+import React from "react";
+import { Separator } from "@/components/ui/separator";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle, XCircle, Phone, AlertCircle } from "lucide-react";
 
 const CodeOfConduct = () => {
   return (
@@ -34,7 +33,7 @@ const CodeOfConduct = () => {
             <div className="flex flex-col md:flex-row gap-4 mb-6">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-goa-sea mr-2" />
-                <span>Zulfidar: 9702026445</span>
+                <span>Zulfiqar: 9702026445</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-goa-sea mr-2" />
