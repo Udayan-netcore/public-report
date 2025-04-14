@@ -45,6 +45,14 @@ const Hero = () => {
             >
               View Schedule
             </Button>
+            <a href="#insiders-guide" id="insider-guide-link">
+              <Button 
+                variant="outline"
+                className="border-white text-white hover:bg-white/10"
+              >
+                Insider's Guide
+              </Button>
+            </a>
           </div>
         </div>
       </div>

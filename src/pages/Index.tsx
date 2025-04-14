@@ -7,6 +7,7 @@ import AccommodationInfo from '@/components/AccommodationInfo';
 import TransportInfo from '@/components/TransportInfo';
 import FunTechSection from '@/components/FunTechSection';
 import CodeOfConduct from '@/components/CodeOfConduct';
+import InsidersGuide from '@/components/InsidersGuide';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
         <FunTechSection />
         <AccommodationInfo />
         <TransportInfo />
+        <InsidersGuide />
         <CodeOfConduct />
       </main>
       <Footer />
