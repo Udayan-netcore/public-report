@@ -27,9 +27,10 @@ const Schedule = () => {
         <h2 className="text-3xl font-bold text-center mb-12">Event Schedule</h2>
         
         <Tabs defaultValue="day1" value={activeTab} onValueChange={setActiveTab} className="w-full max-w-3xl mx-auto">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="day1" className="text-base py-3">Day 1 (April 15)</TabsTrigger>
             <TabsTrigger value="day2" className="text-base py-3">Day 2 (April 16)</TabsTrigger>
+            <TabsTrigger value="day3" className="text-base py-3">Day 3 (April 17)</TabsTrigger>
           </TabsList>
           
           <TabsContent value="day1" className="bg-white rounded-lg p-6 shadow-sm border">
@@ -51,6 +52,10 @@ const Schedule = () => {
             <Event time="2:00 PM" title="GCP Session" description="Google Cloud Platform workshop" />
             <Event time="4:00 PM" title="Group Engagement Activity + Group Photo" description="Team activities and official offsite photograph" />
             <Event time="6:00 PM" title="Free Time" description="Explore Goa at your leisure" />
+          </TabsContent>
+          
+          <TabsContent value="day3" className="bg-white rounded-lg p-6 shadow-sm border">
+            <Event time="All Day" title="Free Day" description="Enjoy the day at your leisure. Netcore will not be responsible for any misconduct or incidents after the official conclusion of the Tech Offsite (April 16)" />
           </TabsContent>
         </Tabs>
       </div>

@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Schedule from '@/components/Schedule';
 import AccommodationInfo from '@/components/AccommodationInfo';
 import TransportInfo from '@/components/TransportInfo';
+import FunTechSection from '@/components/FunTechSection';
 import CodeOfConduct from '@/components/CodeOfConduct';
 import Footer from '@/components/Footer';
 
@@ -15,6 +16,7 @@ const Index = () => {
       <main>
         <Hero />
         <Schedule />
+        <FunTechSection />
         <AccommodationInfo />
         <TransportInfo />
         <CodeOfConduct />
