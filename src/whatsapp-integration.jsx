@@ -454,7 +454,7 @@ function Field({ label, value, mono }) {
 }
 
 // -- Root app -----------------------------------------------------------------
-export default function App() {
+export default function WhatsAppIntegration() {
   const [view, setView] = useState("grid"); // grid | panel | config
   const [selected, setSelected] = useState(null);
 
